@@ -1,37 +1,70 @@
-.bodyText {
-    font-family: "Gill Sans MT", Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    color: #1a334c;
-}
- 
-.mainHeader {
-    font-family: "Palatino", serif;
-    font-size: 30pt;
-    color: #1a334c;
-}
-
-.subHeader {
-     font-family: "Palatino", serif;
-     font-weight: bold;
-     font-size: 20pt;
-     color: #0066ff;
-     background-color: #b7c4d9;
-}
-
 body {
-    background-color: #fff5e7
+    background-color: #fff5e7;
+    font-family: Verdana;
 }
 
 h1 {
-      font-family: Garamond;
-      font-size: 30pt;
-      color: #1a334c;
+    font-family: "Gill Sans MT", Arial, sans-serif;
+    font-size: 50px;
+    color: #f4f4f4;
 }
 
-h2 {
-     font-family: Garamond;
-     font-weight: bold;
-     font-size: 20pt;
-     color: #0066ff;
-     background-color: #b7c4d9;
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 76%;
+   background-color: #b4d2f7
+}
+.header{
+   float: left;
+   width: 100%;
+   background-color: #f4f4f4
+}
+.colmid{
+   position: relative;
+   width: 100%;
+   right: 39%;
+   background-color: #b4d2f7
+}
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 19%;
+   background-color: #b4d2f7
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 17%;
+   left: 101%;
+   background-color: #99ccff
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 40%;
+   left: 42%;
+   background-color: #99ccff
+}
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 37%;
+   left: 63%;
+   background-color: #99ccff
+}
+.footer{
+   float: left;
+   width: 100%;
+   background-color: #b4caf7
+}
+body {
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-color: #e7e7de
 }

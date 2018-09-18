@@ -2,14 +2,146 @@
 <html>
  <head>
        <title>Creative Project 1</title>
-       <link href="main.css" rel="stylesheet"  type="text/css">
+       <!-- Why do I always have trouble getting the CSS to link?? -->
+       <link href="cs260-creative-project1/main.css" rel="stylesheet" type="text/css">
+       <script src="scripts.js" type="text/javascript"></script>
+       
+       <!-- put all this back in main.css once it's linking again -->
+       <style>
+            h1 {
+                font-family: "Gill Sans MT", Arial, sans-serif;
+                font-size: 50px;
+                color: #2c4060;
+            }
+            h2 {
+                font-family: "Gill Sans MT", Arial, sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                color: #000000;
+            }
+            .jokeBtn {
+                font-size: 25px;
+                font-weight: bold;
+                padding: 16px 32px;
+                color: blue;
+            }
+            .jokeBtn1:hover {
+                  background-color: #008CBA;
+                  color: white;
+             }
+            
+           .colmask{
+               position: relative;
+               overflow: hidden;
+               margin: 0px auto;
+               width: 75%;
+               background-color: #b4d2f7
+            }
+            .header{
+               width: 100%;
+               font-size: "25px";
+               background-color: #f4f4f4
+            }
+            .colmid{
+               position: relative;
+               width: 100%;
+               right: 40%;
+               background-color: #b4d2f7
+            }
+            .colleft{
+               position: relative;
+               width: 100%;
+               right: 20%;
+               background-color: #b4d2f7
+            }
+            .col1{
+               position: relative;
+               overflow: hidden;
+               float: left;
+               width: 20%;
+               left: 100%;
+               background-color: #99ccff
+            }
+            .col2{
+               position: relative;
+               overflow: hidden;
+               float: left;
+               width: 40%;
+               left: 40%;
+               background-color: #99ccff
+            }
+            .col3{
+               position: relative;
+               overflow: hidden;
+               float: left;
+               width: 40%;
+               left: 60%;
+               background-color: #99ccff
+            }
+            .footer{
+               float: left;
+               width: 100%;
+               background-color: #b4caf7
+            }
+            body {
+               padding: 0px;
+               margin: 0px;
+               font-size: 18px;
+               font-family: "Gill Sans MT", Arial, sans-serif;
+               background-color: #e7e7de
+            }
+       </style>
        
  </head>
  
  <body>
-     <p>
-         Hello this is a website
-     </p>
+     <h1 align="center"> Dumb Joke Generator </h1>
+     <hr>
+     <br>
+     
+     
+     <!-- Making 3 columns for layout -->
+     <div class="colmask">
+        <div class="header" align="center">
+	        Enter your words below to create a new joke! 
+            </div>
+                <div class="colmid">
+                    <div class="colleft">
+                        <div class="col1">
+                              <!-- Create Joke button -->
+                              <br>
+                              <br>
+                              <button class="jokeBtn" onclick = "createJoke(event)">Create Joke!</button><br>
+
+                        </div>
+                        <!-- Idk why these cols are switched -->
+                        <div class="col2">
+                              <h2 align="center">Enter Words</h2>
+                              <br>
+                              <form>
+                                  Noun   
+                                  <input type="text" name="nounInput"><br>
+                                  Verb   
+                                  <input type="text" name="verbInput"><br>
+                                  Adjective
+                                  <input type="text" name="adjInput"><br>
+                              </form>
+                        </div>
+                        <div class="col3">
+                              <h2 align="center">Joke Result</h2>
+                              <form id="jokeResult" align="center">
+                                  <!-- how to make this a big square?-->
+                                    <!--use JS to replace the innerHTML of this form to the joke result string -->
+                                  <input type="text" name="nounInput"><br>
+                              </form> 
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    <br>
+    <hr>
+    <!-- maybe a testimonials section or something else dumb -->
 
 </body>
 </html>
