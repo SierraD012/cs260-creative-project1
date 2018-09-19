@@ -6,7 +6,17 @@ body {
 h1 {
     font-family: "Gill Sans MT", Arial, sans-serif;
     font-size: 50px;
-    color: #f4f4f4;
+    color: ##6c757d;
+}
+
+h4 {
+    font-family: "Gill Sans MT", Arial, sans-serif;
+    color: ##6c757d;
+}
+
+span {
+    font-family: "Gill Sans MT", Arial, sans-serif;
+    color: ##6c757d;
 }
 
 .colmask{
@@ -67,4 +77,31 @@ body {
    margin: 0px;
    font-size: 90%;
    background-color: #e7e7de
+}
+.no-padding {
+	padding: 0px 0px 0px 0px;
+}
+.word-entry-area {
+	padding-left: 1em;
+}
+.center-content-vh {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+}
+.joke-header {
+	width: 100%;
+	padding-right: 15px;
+	position: absolute;
+}
+.joke-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
 }
