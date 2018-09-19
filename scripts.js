@@ -1,3 +1,9 @@
+var joke1 = ["Why did the", "the", "Road"]; // Noun, Verb, Adj
+
+function getJoke() {
+	return joke1;
+}
+
 function createJoke() {
     //Use an array containing a few different joke "templates" that we can use 
     // one or more of the user's input words on. The joke doesn't even have to make
@@ -13,5 +19,11 @@ function createJoke() {
     //Dumb joke templates can be something like: 
     //"Why did the chicken <VERB> the road? To get to the <ADJ> <NOUN>"
     //
-    
+	
+	var noun = document.getElementById("noun").value;
+	var verb = document.getElementById("verb").value;
+	var adj = document.getElementById("adjective").value;
+	var joke = getJoke();
+	document.getElementById('joke').innerHTML = joke[0] + " " + noun + " " + verb + 
+		" " + joke[1] + " " + adj + " " + joke[2];
 }
