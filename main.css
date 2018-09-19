@@ -6,80 +6,36 @@ body {
 h1 {
     font-family: "Gill Sans MT", Arial, sans-serif;
     font-size: 50px;
-    color: ##6c757d;
+    font-weight: bold;
+    background-color: #02246d;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Gill Sans MT", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f2e3a;
 }
 
 h4 {
     font-family: "Gill Sans MT", Arial, sans-serif;
-    color: ##6c757d;
+    color: #1f2e3a;
 }
 
-span {
-    font-family: "Gill Sans MT", Arial, sans-serif;
-    color: ##6c757d;
-}
-
-.colmask{
-   position: relative;
-   overflow: hidden;
-   margin: 0px auto;
-   width: 76%;
-   background-color: #b4d2f7
-}
-.header{
-   float: left;
-   width: 100%;
-   background-color: #f4f4f4
-}
-.colmid{
-   position: relative;
-   width: 100%;
-   right: 39%;
-   background-color: #b4d2f7
-}
-.colleft{
-   position: relative;
-   width: 100%;
-   right: 19%;
-   background-color: #b4d2f7
-}
-.col1{
-   position: relative;
-   overflow: hidden;
-   float: left;
-   width: 17%;
-   left: 101%;
-   background-color: #99ccff
-}
-.col2{
-   position: relative;
-   overflow: hidden;
-   float: left;
-   width: 40%;
-   left: 42%;
-   background-color: #99ccff
-}
-.col3{
-   position: relative;
-   overflow: hidden;
-   float: left;
-   width: 37%;
-   left: 63%;
-   background-color: #99ccff
-}
-.footer{
-   float: left;
-   width: 100%;
-   background-color: #b4caf7
-}
 body {
    padding: 0px;
    margin: 0px;
    font-size: 90%;
-   background-color: #e7e7de
+   background-color: #ddf0ff
 }
 .no-padding {
 	padding: 0px 0px 0px 0px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #8b9bb5;
 }
 .word-entry-area {
 	padding-left: 1em;

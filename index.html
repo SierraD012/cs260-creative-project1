@@ -2,6 +2,7 @@
 <html lang="en">
  <head>
 		<title>Creative Project 1</title>
+		
 		<!-- Required Bootstrap meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,37 +17,30 @@
  </head>
  <body>
 
-
-
     <h1 align="center"> Dumb Joke Generator </h1>
-    <hr>
     <br>
      
     <div class="container">
         <div class="row">
             <div class="col-4 text-center">
 				<div class="fluid-container no-padding">
-					<h1>
-						Enter words
-					</h1> 
+					<h2>Enter words</h2> 
 				</div>
                 <div class="word-entry-area text-left">
-                    Noun: <input class="form-control" id="noun" type="text" name="nounInput"><br>
+                    Noun: <input class="form-control" id="noun" type="text"><br>
                 </div>
                 <div class="word-entry-area text-left">
-                    Verb: <input class="form-control" id="verb" type="text" name="nounInput"><br>
+                    Verb: <input class="form-control" id="verb" type="text"><br>
                 </div>
                 <div class="word-entry-area text-left">
-                    Adjective: <input class="form-control" id="adjective" type="text" name="nounInput"><br>
+                    Adjective: <input class="form-control" id="adjective" type="text"><br>
                 </div>
             </div>
             <div class="col-4 text-center center-content-vh">
-				<button type="button" class="btn btn-outline-secondary btn-lg">Create Joke</button>
+				<button type="button" class="btn btn-outline-dark btn-lg">Create Joke</button>
             </div>
             <div class="col-4 text-center flex-vertical">
-				<h1 class="joke-header">
-					Joke Result
-				</h1>
+				<h2 class="joke-header">Joke Result</h2>
 				<div class="joke-container"> 
 					<h4 id="joke">
 						This is where a funny joke will go when we have it.
@@ -55,7 +49,17 @@
             </div>
         </div>
     </div>
-    <!-- maybe a testimonials section or something else dumb -->
+    
+    <div class="footer">
+        <br><br><br>
+        <hr>
+        <p align = "center">
+            This website was made by Ty Udy and Sierra Davis <br>
+            CS 260, section 002 <br>
+            September 2018
+        </p>
+    </div>
+    
 	<!--Bootstrap Dependencies -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
