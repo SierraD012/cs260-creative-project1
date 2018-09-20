@@ -26,7 +26,7 @@ function createJoke() {
 //Uses a switch case to pick a joke template, then builds the joke string and returns it 
 function getJoke(noun, verb, adj, randNum) {
     var newJoke = "";
-    randNum = 3  //use if you need to test one joke individually 
+//	randNum = 3  //use if you need to test one joke individually 
     
     switch (randNum) {
         case 0:
@@ -59,11 +59,8 @@ function getJoke(noun, verb, adj, randNum) {
 
 //Clears the three word input fields and the joke output field 
 function clearText() {
-    
-    	document.getElementById('joke').innerHTML = ""
-    	
-    	//how to clear the input fields too? .reset() doesn't work either...
-    	document.getElementById('noun').innerHTML = ""
-    	document.getElementById('verb').innerHTML = ""
-    	document.getElementById('adjective').innerHTML = ""
+    	document.getElementById('joke').innerHTML = "";
+    	document.getElementById('noun').value = "";
+    	document.getElementById('verb').value = "";
+    	document.getElementById('adjective').value = "";
 }
