@@ -31,19 +31,19 @@ function getJoke(noun, verb, adj, randNum) {
     switch (randNum) {
         case 0:
              //looks like my newline trick isn't working... any other way we can put a break in this string?
-            newJoke = joke0[0] + verb + joke0[1] + "\n" + joke0[2] + adj + " " + noun + "!";
+            newJoke = joke0[0] + verb + joke0[1] + "<br />" + joke0[2] + adj + " " + noun + "!";
             break; 
         case 1:
-            newJoke = joke1[0] + noun + joke1[1] + "\n" + joke1[2] + adj + " " + verb;
+            newJoke = joke1[0] + noun + joke1[1] + "<br />" + joke1[2] + adj + " " + verb;
             break;
         case 2:
-            newJoke = joke2[0] + noun + joke2[1] + adj + "? \n" + joke2[2] + verb + "!";
+            newJoke = joke2[0] + noun + joke2[1] + adj + "? <br />" + joke2[2] + verb + "!";
             break; 
         case 3:
-            newJoke = joke3[0] + verb + joke3[1] + "\n" + joke3[2] + adj + " " + noun + "?\"";
+            newJoke = joke3[0] + verb + joke3[1] + "<br />" + joke3[2] + adj + " " + noun + "?\"";
             break; 
         case 4:
-            newJoke = joke4[0] + verb + joke4[1] + noun + "?\n" + joke4[2] + adj + joke4[3] + "!";
+            newJoke = joke4[0] + verb + joke4[1] + noun + "?<br />" + joke4[2] + adj + joke4[3] + "!";
             break; 
             
         // add a new case here if we want more jokes
