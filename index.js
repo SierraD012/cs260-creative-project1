@@ -3,9 +3,9 @@ var fs = require('fs');
 
 //create a server object:
 http.createServer(function (req, res) {
-	if (req.url === "scripts.js"){
+	if (req.url === "/scripts.js"){
 		console.log("loading javascript");
-		fs.readFile("scripts.js", function(error, data) {
+		fs.readFile("/scripts.js", function(error, data) {
 			if (error) {
 				throw error;
 			} else {
@@ -15,8 +15,8 @@ http.createServer(function (req, res) {
 			res.end();
 		})
 	}
-	else if (req.url === "main.css"){
-		fs.readFile("main.css", function(error, data) {
+	else if (req.url === "/main.css"){
+		fs.readFile("/main.css", function(error, data) {
 			if (error) {
 				throw error;
 			} else {
